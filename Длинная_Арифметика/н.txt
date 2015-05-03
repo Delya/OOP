@@ -1,0 +1,43 @@
+/*if (i >= 0)
+		{
+			for (; i >= 0; --i)
+			{
+				buf = div + (left.set(i) - '0');
+				if (buf > 9)
+				{
+					div = buf / 10;
+					buf %= 10;
+					sum.number.insert(sum.number.begin(), buf + '0');
+				}
+				else
+				{
+					div = 0;
+					sum.number.insert(sum.number.begin(), buf + '0');
+				}
+				--len;
+			}
+		}
+		else if (j >= 0)
+		{
+			{
+				for (; j >= 0; --j)
+				{
+					buf = (right.set(j) - '0') + div;
+					if (buf > 9)
+					{
+						div = buf / 10;
+						buf %= 10;
+						char c = buf + '0';
+						sum.number.insert(sum.number.begin(), c);
+						
+					}
+					else
+					{
+						div = 0;
+						sum.number.insert(sum.number.begin(), buf + '0');
+					}
+					--len;
+				}
+			}
+		}*/
+	//}
